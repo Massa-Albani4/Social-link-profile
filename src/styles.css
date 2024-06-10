@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .link-btn {
+    @apply h-[2.85rem] w-[85%] rounded-lg bg-grey text-[.92rem] font-bold hover:cursor-pointer hover:bg-green hover:font-bold hover:text-black lg:h-[3.1rem] lg:w-[79.5%] lg:text-base lg:font-semibold;
+  }
+}
